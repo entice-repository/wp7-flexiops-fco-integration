@@ -49,15 +49,14 @@ def getToken(endpoint, username, cust_uuid, password):
 
 #Method used to retrieve an image from a URL and create the image on the platform
 def rest_post_image(auth_parms):
-    resourceURL = "http://cloud-images.ubuntu.com/xenial/current/xenial-server-cloudimg-amd64-disk1.img"
-    #resourceURL = "https://images.flexiant.com/resources/galleries/1/templates/10246/images/18405/downloads/Wordpress_32_bit_2.6rev2_flexiantkvm.qcow2.gz?downloadId=78223"
+    resourceURL = ""
     createURL = ENDPOINT + "rest/user/current/resources/image"
 
-    vdcUUID = "b7e36320-c08a-377d-8f7a-b9df06bca358"
-    productoUUID = "3660d322-9d4e-3ff7-a3bd-7b6dc635b3da"
-    imageName = "pythonScriptedTestImage"
-    clusterUUID = "e92bb306-72cd-33a2-a952-908db2f47e98"
-    default_user = "ubuntu"
+    vdcUUID = ""
+    productoUUID = ""
+    imageName = ""
+    clusterUUID = ""
+    default_user = ""
     gen_password = True
     make_image = True
     size = 100
