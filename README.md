@@ -57,4 +57,4 @@ These variables are:
 
 **resourceType** (the type of the NIC resource)
 
-Once all of the variables have been set, the program can be launched bu running the serverCreation.py file.
+Once all of the variables have been set, the program can be launched by running the serverCreation.py file.
