@@ -310,6 +310,7 @@ def waitForServerCreate():
 
 global image_to_use_uuid
 image_to_use_uuid = imagePull()
+#Check if image has been successfully created on the platform
 if(image_to_use_uuid != ""):
     create_server()
     waitForServerCreate()
