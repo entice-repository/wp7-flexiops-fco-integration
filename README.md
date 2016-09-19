@@ -1,7 +1,7 @@
 # Image-Server-Initialisation
 Python script to programatically retrieve an image and use this image to create and launch a new server instance on the FCO platform.
 
-Authentication variables for the FCO API such as customer username, customer UUID and customer password which are used by all scripts in the application are contained in the globals.py file and need to set to valid parameters.
+Authentication variables for the FCO API such as customer username, customer UUID and customer password which are used by all scripts in the application are contained in the globals.py file and need to be set to valid parameters.
 
 **globalUsername** (The username/email address of the customer account to be used for authentication)
 
@@ -56,3 +56,5 @@ These variables are:
 **resourceName** (the name of the NIC resource)
 
 **resourceType** (the type of the NIC resource)
+
+Once all of the variables have been set, the program can be launched bu running the serverCreation.py file.
