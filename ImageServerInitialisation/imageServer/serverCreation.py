@@ -228,19 +228,19 @@ def create_server():
     auth = dict(endpoint="https://cp.sd1.flexiant.net/", token=token)
 
     auth_parms = auth
-    server_name = "Python Script Server test"
-    server_po_uuid = "0d1a2798-91b5-35d4-93c2-fed5ece5aedd"
-    cluster_uuid = "e92bb306-72cd-33a2-a952-908db2f47e98"
-    vdc_uuid = "b7e36320-c08a-377d-8f7a-b9df06bca358"
-    cpu_count = 4
-    ram_amount = 4096
-    boot_disk_po_uuid = "3660d322-9d4e-3ff7-a3bd-7b6dc635b3da"
+    server_name = ""
+    server_po_uuid = ""
+    cluster_uuid = ""
+    vdc_uuid = ""
+    cpu_count = 1
+    ram_amount = 512
+    boot_disk_po_uuid = ""
     disk_size = 20
     context_script = ""
-    networkUUID = "ce6a8dc8-bf9d-373a-8a66-888cc0c20460"
-    networkType = "IP"
-    resourceName = "Nic-Card-1"
-    resourceType = "NIC"
+    networkUUID = ""
+    networkType = ""
+    resourceName = ""
+    resourceType = ""
 
     nic = {
        "clusterUUID": cluster_uuid,
